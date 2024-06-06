@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello world</h1>
+    <h1>ciao {{ $username }}</h1>
+    <ul>
+        <li>
+            <a href="{{route('about')}}">about</a>
+        </li>
+    </ul>
 </body>
 </html>
